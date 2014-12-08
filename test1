@@ -1,0 +1,24 @@
+function setup()
+    --Set the viewer to overlay
+        displayMode(FULLSCREEN)
+
+     print("Hello World!")
+end
+
+-- This function gets called once every frame
+function draw()
+    -- This sets a dark background color 
+    background(100, 255, 50)
+
+    -- This sets the line thickness
+    strokeWidth(50)
+
+    -- Do your drawing here
+    background(120, 120, 120)
+font("ArialMT")
+fill(255)
+fontSize(50)
+textWrapWidth(800)
+text("Kelvin geht es gut!", WIDTH/2, HEIGHT/2)
+
+endhere
